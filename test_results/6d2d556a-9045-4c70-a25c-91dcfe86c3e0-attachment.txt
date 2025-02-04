@@ -1,0 +1,66 @@
+Enter system
+Start test
+Старт тест Авторизации
+Current url https://www.chipdip.ru/
+clic Authorization
+input Name
+input Password
+clic Enter
+Подтверждение: 
+  - value_word=Личный кабинет,
+  - result=Личный кабинет.
+Финиш тест Авторизации
+Старт тест Каталог
+Current url https://www.chipdip.ru/account
+clic Каталог
+clic Электронные компоненты
+Current url https://www.chipdip.ru/catalog/electronic-components
+Подтверждение: 
+  - value_word=Электронные компоненты,
+  - result=Электронные компоненты.
+clic Микросхемы
+Current url https://www.chipdip.ru/catalog/ic-chip
+Подтверждение: 
+  - value_word=Микросхемы,
+  - result=Микросхемы.
+clic AC-DC Преобразователи, Off-Line коммутаторы
+Current url https://www.chipdip.ru/catalog/ic-ac-dc-converters
+Подтверждение: 
+  - value_word=AC-DC Преобразователи, Off-Line коммутаторы,
+  - result=AC-DC Преобразователи, Off-Line коммутаторы.
+clic FSCQ0765RTYDTU, Импульсный регулятор напряжения [TO-220-5 FP (Formed Leads)]
+Current url https://www.chipdip.ru/product/fscq0765rtydtu-2
+Финиш тест Каталог
+Старт тест выбранного продукта
+Подтверждение: 
+  - value_word=FSCQ0765RTYDTU, Импульсный регулятор напряжения [TO-220-5 FP (Formed Leads)],
+  - result=FSCQ0765RTYDTU, Импульсный регулятор напряжения [TO-220-5 FP (Formed Leads)].
+Подтверждение: 
+  - value_word=220,
+  - result=220.
+clic в корзину
+Current url https://www.chipdip.ru/product/fscq0765rtydtu-2
+clic Корзина
+Current url https://www.chipdip.ru/cart
+Финиш тест выбранного продукта
+Старт тест Корзина
+Подтверждение: 
+  - value_word=Корзина,
+  - result=Корзина.
+Current url https://www.chipdip.ru/cart
+Подтверждение: 
+  - value_word=FSCQ0765RTYDTU, Импульсный регулятор напряжения [TO-220-5 FP (Formed Leads)],
+  - result=FSCQ0765RTYDTU, Импульсный регулятор напряжения [TO-220-5 FP (Formed Leads)].
+Подтверждение: 
+  - value_word=220 руб.,
+  - result=220 руб..
+clic Удалить выбранные
+Current url https://www.chipdip.ru/cart
+Подтверждение: 
+  - value_word=Удалить выбранные,
+  - result=Удалить выбранные.
+clic Да
+Current url https://www.chipdip.ru/cart
+Финиш тест Корзина
+Finish test
+Exit system
